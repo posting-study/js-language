@@ -1,2 +1,4 @@
-# js-language
-Univ of Sejong Software Posting Study
+# 블로그 포스팅 스터디
+
+**날짜**
+매주 금요일
