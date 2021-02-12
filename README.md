@@ -15,9 +15,9 @@ git Issues 를 통해서 주제를 선정하고 글을 쓴 후 해당 이슈 넘
 
 **1회차**
 
-- [JS에서 Class 다루기](https://github.com/posting-study/js-language/blob/main/class/class.md) / [최윤서](https://github.com/yunseo323)
+[JS에서 Class 다루기](https://github.com/posting-study/js-language/blob/main/class/class.md) / [최윤서](https://github.com/yunseo323)
 
-- [Canvas를 활용한 객체지향 맛보기](https://github.com/posting-study/js-language/blob/main/class/class-example.md) / [강은솔](https://github.com/eunsolkang)
+[Canvas를 활용한 객체지향 맛보기](https://github.com/posting-study/js-language/blob/main/class/class-example.md) / [강은솔](https://github.com/eunsolkang)
 
 
 
