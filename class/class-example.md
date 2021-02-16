@@ -143,7 +143,7 @@ function gameLoop() {
 
 - `init()` 는 처음 실행되었을 때 혹은 `class`에 있는 정보를 초기화해야할 때 사용합니다.
 - `render()` 는 실제 화면에 그려지는 영역을 작성하고 반복실행됩니다.
-- `update()` 는 맴버 변수들의 변화를 체크하고 값을 실시간으로 변화시키는 일을 담당합니다.
+- `update()` 는 멤버 변수들의 변화를 체크하고 값을 실시간으로 변화시키는 일을 담당합니다.
 
 ```js
 class GameStartState{
@@ -176,7 +176,7 @@ State를 분리하게 되면 게임은 보통 아래와 같은 구조도를 가�
 
 이러한 상태를 관리하기 위해 `StateManager` 라는 클래스를 작성해봅시다.
 
-`GameStateManager` 는 생성될 때 `gameState` 맴버변수를 `GameStartState` 로 초기화시켜줍니다.
+`GameStateManager` 는 생성될 때 `gameState` 멤버변수를 `GameStartState` 로 초기화시켜줍니다.
 
 이후 `GameStateManager` 는 `render` 와 `update` 를 반복적으로 진행하게됩니다.
 
