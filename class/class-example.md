@@ -135,7 +135,7 @@ function gameLoop() {
 
 게임을 개발하다 보면 여러가지 생태가 필요합니다.
 
-```GameOver```, ```GameStart```,  ```StageCleaer``` 등 다양한 상태를 가지며 각 상태마다 다른 화면을 표시해줘야합니다.
+```GameOver```, ```GameStart```,  ```StageClear``` 등 다양한 상태를 가지며 각 상태마다 다른 화면을 표시해줘야합니다.
 
 이를 관리하기 위해서 각 게임의 상태를 ```class``` 로 작성해줍니다.
 
