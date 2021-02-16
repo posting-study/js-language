@@ -213,7 +213,7 @@ const gameStateManager = new GameStateManager();
 
 위에서 사용했던 ```setInterval``` 을 사용하지않고 자바스크립트 내장 함수인 ```requestAnimationFrame``` 을 사용합니다. 
 
-위에서 설명했던 내용대로 각각 최상단에 있는 `Render`와 `Update` 는 `GameStateManager` 의 `update` 와 `render` 메서드를 실행하므로 상태가 변경되더라도 최상단 코드를 수정하는 일이 없어집니다.
+위에서 설명했던 내용대로 각각 최상단에 있는 `Render`와 `Update` 는 `GameStateManager` 의 `render` 와 `update` 메서드를 실행하므로 상태가 변경되더라도 최상단 코드를 수정하는 일이 없어집니다.
 ```js
 
 let canvasHeight;
