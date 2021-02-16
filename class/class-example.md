@@ -180,7 +180,7 @@ State를 분리하게 되면 게임은 보통 아래와 같은 구조도를 가�
 
 이후 `GameStateManager` 는 `render` 와 `update` 를 반복적으로 진행하게됩니다.
 
-게임의 상태가 변경되면 `onChangeGameState` 를 통해서 변경할 수 있습니다.
+게임의 상태가 변경되면 `onChangeGameState` 를 통해서 `state`를 변경할 수 있습니다.
 
 이렇게 작성하게 되면 게임의 상태를 변경해야할 때 상태를 관리하는 클래스를 직접수정 할 필요없이
 
