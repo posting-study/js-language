@@ -56,6 +56,7 @@ AWS EC2란, Amazon Web Services에서 제공하는 Elastic Compute Cloud 서비�
   <img src="./img-EC2/8.png"/>
 </p>
 생성 버튼을 누르면, 보안 그룹 이름, 인바운드 및 아웃바운드 규칙을 설정할 수 있다. 간단하게, 인바운드는 외부에서 서버 내부로 진입할 때, 아웃바운드는 서버에서 외부로 나갈 때라고 이해한다. 이 규칙들을 정해주어 접속할 수 있는 포트범위와 대상들을 지정한다.
+
 <p align="center">
   <img src="./img-EC2/9.png"/>
 </p>
