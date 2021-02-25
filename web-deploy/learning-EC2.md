@@ -13,20 +13,26 @@ AWS EC2란, Amazon Web Services에서 제공하는 Elastic Compute Cloud 서비�
 <p align="center">
   <img src="./img-EC2/1.png"/>
 </p> 
+
 '인스턴스 시작'을 클릭한다.
+
 <p align="center">
   <img src="./img-EC2/2.png"/>
 </p> 
+
 1단계로 Amazon Machine Image(AMI)를 선택한다.
 취향에 따라 원하는 운영체제를 선택한다. 여기서 나는 Ubuntu Server을 선택했다.
+
 <p align="center">
   <img src="./img-EC2/3.png"/>
 </p> 
+
 다음, 2단계로 인스턴스 유형을 선택한다.
 메모리와 네트워크 성능을 고르는 구간인데,
 무료로 진행하기 위해 프리 티어 사용 가능이라고 표시되어 있는 것을 선택했다.
 이 부분에서 '다음: 인스턴스 세부 정보 구성'을 클릭하면 인스턴스 구성, 스토리지와 태그 추가, 보안 그룹과 관련된 세부 사항들을 적용할 수 있다.
 이 단계는 나중에도 추가할 수 있기 때문에 빠른 생성을 원하면 바로 '검토 및 시작'을 눌러 진행하도록 한다.
+
 <p align="center">
   <img src="./img-EC2/4.png"/>
 </p> 
@@ -58,6 +64,7 @@ AWS EC2란, Amazon Web Services에서 제공하는 Elastic Compute Cloud 서비�
 <p align="center">
   <img src="./img-EC2/8.png"/>
 </p>
+
 생성 버튼을 누르면, 보안 그룹 이름, 인바운드 및 아웃바운드 규칙을 설정할 수 있다. 
 인바운드는 외부에서 서버 내부로 진입할 때, 아웃바운드는 서버에서 외부로 나갈 때라고 간단하게 설명할 수 있다. 
 이 규칙들을 정해주어 접속할 수 있는 포트범위와 대상들을 지정한다.
@@ -83,6 +90,7 @@ powershell에서 pem파일, 운영체제 이름, 퍼블릭 IP주소를 다음과
 <p align="center">
   <img src="./img-EC2/11.png"/>
 </p>
+
 git clone으로 배포하고 싶은 웹 프로젝트를 서버에 올린다. 리눅스 명령어로 서버에 올려져 있는 파일들을 확인한 후 배포할 웹을 선택한다.
 저 파일 중 react로 만든 Gateway-web-landing을 올리겠다. Ubuntu에 Node.js를 설치한 후, 간단하게 해당 파일에서 yarn start를 하면 react 파일이 실행되는 것을 확인할 수 있다
 
