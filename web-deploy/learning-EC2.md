@@ -13,10 +13,13 @@ AWS EC2란, Amazon Web Services에서 제공하는 Elastic Compute Cloud 서비�
 <p align="center">
   <img src="./img-EC2/1.png"/>
 </p> 
+
 '인스턴스 시작'을 클릭한다.
+
 <p align="center">
   <img src="./img-EC2/2.png"/>
 </p> 
+
 1단계로 Amazon Machine Image(AMI)를 선택한다.
 취향에 따라 원하는 운영체제를 선택한다. 여기서 나는 Ubuntu Server을 선택했다.
 
