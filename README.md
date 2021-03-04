@@ -24,3 +24,13 @@ git Issues 를 통해서 주제를 선정하고 글을 쓴 후 해당 이슈 넘
 [firebase deploy_ 웹 배포하기](https://github.com/posting-study/posting/blob/main/deploy/hosting.md) / [강은솔](https://github.com/eunsolkang)
 
 [EC2 deploy_AWS EC2 사용하기](https://github.com/posting-study/posting/blob/main/web-deploy/learning-EC2.md) / [최윤서](https://github.com/yunseo323)
+
+
+**3회차**
+
+
+[인터넷이 동작하는 원리](https://github.com/posting-study/posting/blob/main/network/osi.md) / [강은솔](https://github.com/eunsolkang)
+
+[웹 통신의 기초 HTTP 프로토콜](https://github.com/posting-study/posting/blob/main/network/HTTP.md) / [최윤서](https://github.com/yunseo323)
+
+[HTTPS와 암호화](https://github.com/posting-study/posting/blob/main/network/HTTPS.md) / [최윤서](https://github.com/yunseo323)
