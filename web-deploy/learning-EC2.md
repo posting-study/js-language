@@ -72,6 +72,7 @@ AWS EC2란, Amazon Web Services에서 제공하는 Elastic Compute Cloud 서비�
 <p align="center">
   <img src="./img-EC2/9.png"/>
 </p>
+
 다음은 실제로 배포한 페이지의 아웃바운드 규칙들이다. 각 유형, 프로토콜,포트범위, 대상을 지정한다.
 
 -이때 대상을 0.0.0.0/0 과 ::/0으로 두면 대상이 전세계 사용자들로 설정이 된다.
