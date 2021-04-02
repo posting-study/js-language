@@ -14,12 +14,14 @@
 - cardinality: tuple의 개수
 - attribute: 속성
 - degree: attribute의 개수
-- domain: 해당 attribute가 가질 수 있는 값의 범위
+- domain: 해당 attribute가 가질 수 있는 값의 집합
 
 ### Schema(스키마)
 
 데이터베이스의 구조와 제약조건에 관해 전반적인 명세를 기술한 것이다. 간단하게 말하면 **데이터베이스 설계도** 라고 할 수 있다. 이 스키마를 실체화 시킨 것을 인스턴스(instance)라고 한다.
 스키마는 외부스키마와 내부스키마로 나누어지는데,
+외부스키마는 '데이터를 어떤 구조로 나타내어 유저에게 보여줄 것인지'와 같은 내용을 담고,
+내부스키마는 '데이터를 물리적으로 저장하는 구조'에 관한 내용을 담는다.
 
 ### DBMS(Database Management System)
 
