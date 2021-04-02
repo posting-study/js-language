@@ -36,6 +36,11 @@ git Issues 를 통해서 주제를 선정하고 글을 쓴 후 해당 이슈 넘
 [HTTPS와 암호화](https://github.com/posting-study/posting/blob/main/network/HTTPS.md) / [최윤서](https://github.com/yunseo323)
 
 
+**4회차**
+
+[관계형 데이터베이스와 서버(with JS)](https://github.com/posting-study/posting/blob/main/server_database/server_database.md) / [최윤서](https://github.com/yunseo323)
+
+
 **5회차**
 
 
